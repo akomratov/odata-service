@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "person": 3,
+    "city": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "person": {
+      "1": "{\"firstname\":\"Bill\",\"lastname\":\"Clinton\",\"id\":1}",
+      "2": "{\"firstname\":\"Anton\",\"lastname\":\"Komratov\",\"id\":2}"
+    },
+    "city": {}
+  }
+}

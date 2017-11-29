@@ -15,7 +15,7 @@
     "helmet#frameguard": {
       "params": [
         "deny"
-       ]
+      ]
     },
     "helmet#hsts": {
       "params": {
@@ -38,7 +38,12 @@
       "paths": [
         "${restApiRoot}"
       ]
-    }
+    },
+		"n-odata-server#odata": {
+			"paths": [
+				"/odata/*"
+			]
+		}
   },
   "files": {},
   "final": {

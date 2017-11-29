@@ -1,9 +1,16 @@
 'use strict';
 
+// anton_k: added 1 line
+var bodyParser = require('body-parser');
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
+
+// anton_k: added 2 lines
+// parse application/json
+app.use(bodyParser.json());
+
 
 app.start = function() {
   // start the web server

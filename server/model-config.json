@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -31,5 +32,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "person": {
+    "dataSource": "db",
+    "public": true
+  },
+  "city": {
+    "dataSource": "db",
+    "public": true
   }
 }
